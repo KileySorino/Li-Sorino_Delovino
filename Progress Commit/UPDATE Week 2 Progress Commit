@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Art Chamber </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width"> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body class=bodybackground>
+
+  <div>
+    <h1 class="headbackground">
+      <img 
+        alt="Art Chamber Logo"
+        title= "Art Chamber Logo"
+        src="images\blank logo.png"
+        width= "75" height= "75"/>
+
+          
+          ART CHAMBER 
+            
+      
+      <div class="Description">
+    <p>
+      Art Chamber is a website for those looking  to expand their knowlegde about certain art types and maybe even start their own art journey. <br>We focus on visual arts and we have compiled a few topics and materials you can use in here! Have fun, make art, and good luck on your art journey! 
+    </p>
+      </div><br>
+    </h1>
+  </div>
+
+ 
+  <div>
+    <h1 class="Question">
+      Which kind of art would you like to learn about? 
+    </h1>
+  </div>
+  <ol class="centermargin">
+    <li>
+      <a href="Webpages/TraditionalArt.html">
+        Traditional
+      </a>
+    </li>
+    <li>
+      <a href="Webpages/DigitalArt.html">
+        Digital
+      </a>
+    </li>
+  </ol>
+  
+  <div>
+    <div>
+      <h2 style="text-align:center;"> <br><br>
+        <img
+          align= "left"
+          alt="Traditional art random pic"
+          title= "Traditional art random pic"
+          src="images\blank logo.png"
+          width= "275" height= "300"
+        />
+        </h2>
+    </div>  
+    <div>
+      <p style="clear: right; text-align: left;"> insert description here</p> <br>
+      <a href="Webpages/TraditionalArt.html"> <p style="text-align: left;"> Continue here!</p></a>
+      </div>  
+    
+  </div>
+  
+  <div>
+    <div>
+      <h2 style="text-align:center;">
+        <br clear=all><br><br>
+        <img
+          align= "right"
+          alt="Traditional art random pic"
+          title= "Traditional art random pic"
+          src="images\blank logo.png"
+          width= "275" height= "300"
+        />
+        </h2>
+    </div>  
+    <div>
+      <p style="text-align: right;"> insert description here</p> <br>
+      <a href="Webpages/DigitalArt.html";"> <p style="text-align: right;"> Continue here! </p></a>
+      </div>  
+    
+  </div>
+    
+
+
+
+  #081127
+  #fff8e4
+  #e6e7e9
+  #397367
+  #6B0F1A
+  #C78283
+
+  
+</body>
+</html>
