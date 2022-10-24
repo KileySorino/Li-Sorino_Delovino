@@ -1,63 +1,65 @@
-<!DOCTYPE html>
-<html>
+html, body {
+  height: 75%;
+  width: 75%;
+  font-family: Helvetica;
+  background-color: #7DE5ED;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 
-<head>
-  <title> Art Chamber </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width"> 
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-  
-<body class=bodybackground>
+}
 
-  <div>
-    <h1 class="headbackground">
-      <img 
-        alt="Art Chamber Logo"
-        title= "Art Chamber Logo"
-        src="images\blank logo.png"
-        width= "75" height= "75"/>
+#container{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #98c1d9;
+  position: fixed;
+  top: 0;
+}
 
-          
-          ART CHAMBER 
-            
-      
-      <div class="Description">
-    <p>
-      Art Chamber is a website for those looking  to expand their knowlegde about certain art types and maybe even start their own art journey. <br>We focus on visual arts and we have compiled a few topics and materials you can use in here! Have fun, make art, and good luck on your art journey! 
-    </p>
-      </div><br>
-    </h1>
-  </div>
+#logo_container{
+  width: 300px;
+  height: 100%;
+  display: block;
+  background-color: #219ebc;
+}
 
- 
-  <div>
-    <h1 class="Question">
-      Which kind of art would you like to learn about? 
-    </h1>
-  </div><br>
-  
-  <ol class="centermargin">
-    <li>
-      <a href="Webpages/TraditionalArt.html">
-        Traditional
-      </a>
-    </li>
-    <li>
-      <a href="Webpages/DigitalArt.html">
-        Digital
-      </a>
-    </li>
-  </ol>
-  
-  <div>
-  #081127
-  #fff8e4
-  #e6e7e9
-  #397367
-  #6B0F1A
-  #C78283
+#website_name{
+  height:100%;
+  display: table;
+  float: left;
+  background-color: #219ebc;
+}
+#website_name h1{
+  color: #003049;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 100;
+}
+#website_name h1 span{
+  font-weight: 900;
+}
 
-  
-</body>
-</html>
+#container li{
+  float: right;
+  margin: 0px 40px;
+  position: relative;
+  top: -50px;
+  right: 60px
+}
+
+
+#Home_description{
+  width: 100%;
+  height: 20px;
+  display: block;
+  background-color: #98c1d9;
+  position: fixed;
+  bottom: 0;
+}
