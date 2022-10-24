@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial';
+}
+#header {
+  width: 100%; 
+  height: 15%;
+  overflow: auto;
+  background-color: #5E1E28;
+  border: 2px solid #361519;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  color: #FFF8EA;
+  text-align: center;
+}
+#header title {
+  font-size: 200%;
+}
+.Description {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #5e1e28;    
+  text-align: center;
+  padding: 30px
+}
+.Question {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 2px outset black;
+  background-color: #DBF5F0;    
+  text-align: center;
+  padding: 20px
+}
+.headbackground {
+  background-color: #5e1e28;
+  color: #fff8ea;
+}
+.bodybackground {
+  background-color: #fff8e4;
+}
+ol {
+  line-style-type: none;
+  width: 80%;
+  margin:0 auto;
+}
+li{
+  margin-right: 120px;
+  margin-left: 120px
+}
+
+li, a {
+  display: inline-block;
+}
+ol a { 
+  background-color: #1AA7EC;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  width: 310px;
+  padding: 20px;
+  border-radius: 100px 100px;
+  text-align: center
+}
+ol a:hover {
+  color: #47B5FF;
+  background: #DFF6FF;
+  text-shadow: 1px 1px 1px gray;
+  border: 1px solid gray; 
+  box-shadow: 3px 3px 3px lightgray;
+}
+.centermargin{
+  margin: auto;
+}
+
+
+#image {
+  margin: 10px;
+}
+
+#digitalart {
+  margin-top: 0px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 130px;
+  padding-left: 10px;
+  background-color: #5e1e28;
+}
+
+#traditionalart {  
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#TraditionalArt {
+  background-color: #5e1e28;
+}
