@@ -1,0 +1,149 @@
+html, body {
+  height: 75%;
+  width: 75%;
+  font-family: Helvetica;
+  background-color:#4C5B5C;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#container{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #AFAFAC;
+  position: fixed;
+  top: 0;
+}
+
+#logo_container{
+  width: 300px;
+  height: 100%;
+  display: block;
+  background-color: #5E1E28;
+}
+
+#website_name{
+  height:100%;
+  display: table;
+  float: left;
+  background-color: #5E1E28;
+}
+
+#website_name h1{
+  color: #FFF8EA;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 100;
+}
+
+#website_name h1 span{
+  font-weight: 900;
+}
+
+#container li{
+  float: right;
+  margin: 0px 40px;
+  position: relative;
+  top: -50px;
+  right: 60px;
+}
+
+#Footer{
+  width: 100%;
+  height: 20px;
+  display: block;
+  background-color: #AFAFAC;
+  position: fixed;
+  bottom: 0;
+}
+
+#Home_description{
+  width: 60%;
+  height: 350px;
+  margin: 120px 50px 10px 30px;
+  padding: 20px;
+  display: block;
+  background-color:#AFAFAC;
+  text-align: justify;
+  float:left;
+  opacity: 0.8;
+}
+
+#Home_description span{
+  font-weight: 1000;
+  font-size: 30px;
+  color: #003049;
+}
+
+#Choice_Box{
+  width: 45%;
+  height: 70%;
+  background-color: #AFAFAC;
+  position: fixed;
+  bottom: 10%;
+  right: 60px;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+#Question{
+  width: 100%;
+  height: 25%;
+  margin-bottom:20px;
+  background-color: #F2F6F7;
+  padding: 10px;
+  padding-top: 30px;
+  font-size: 27.5px;
+  font-weight: 700;
+  color: #083AA9;
+}
+
+#Choice1{
+  float:left;
+  width: 45%;
+  height: 60%;
+  background-color: #F2F6F7;
+  margin-left: 10px; 
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#Choice2{
+  float:right;
+  width: 45%;
+  height: 60%;
+  background-color: #F2F6F7;
+  margin-right: 10px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+a{
+  color: black;
+}
+
+#Choice2 a{
+  color: #042A2B;
+}
+
+#Choice1 a{
+  color: #042A2B;
+}
+
+#progress{
+  position: fixed;
+  top: 0;
+  right: 50%;
+}
